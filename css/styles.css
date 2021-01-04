@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;;
 }
 
@@ -11,6 +12,7 @@ body{
     float: left;
     padding-left: 2%;
     margin-left: 5%;
+    padding-top: 2%;
 }
 
 .half-width img{
@@ -24,6 +26,11 @@ body{
     background-color: orangered;
     padding: 10px 20px;
     border-radius: 5px;
-    
+}
+
+.upper-banner{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
